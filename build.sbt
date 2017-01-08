@@ -3,7 +3,9 @@ enablePlugins(ScalaJSPlugin)
 
 name := "scalajs-google-sign-in"
 
-version := "0.0.0"
+organization := "de.nephtys"
 
-scalaVersion := "2.12.1"
+version := "0.0.1"
+
+scalaVersion := "2.11.8"
     

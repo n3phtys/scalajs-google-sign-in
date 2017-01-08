@@ -6,7 +6,7 @@ import scala.scalajs.js
   * Created by Christopher on 07.01.2017.
   */
 @js.native
-trait GoogleUser {
+trait GoogleUser extends js.Object {
   def getId() : String = js.native
   def isSignedIn() : Boolean = js.native
   def getGrantedScopes() : String = js.native
